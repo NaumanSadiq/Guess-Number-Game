@@ -1,0 +1,12 @@
+    Code by Nauman Sadiq (invisible eye)
+
+    run the guessNumber.html file
+    it's a guess number game.
+    built using Html,Css,bootstrap and jQuery.
+    you need to guess a number between 1 and 20.
+    you have 20 points and if you guess wrong number you get minus 1.
+    if you don't guess the right number before your points reach zero you will lose the game.
+    game code link is in the description.
+    
+    
+    

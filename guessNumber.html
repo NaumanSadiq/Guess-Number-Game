@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+
+    <!-- CSS file link -->
+    <link rel="stylesheet" href="guessStylesheet.css" />
+
+    <!-- Fonts Link "google fonts" -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+    <script src="guessNumber.js"></script>
+
+    <title>Guess The Number</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-6 col-sm-12">
+          <button
+            class="btn btn-dark btn-outline-success text-white w-25 border-white"
+            id="again"
+          >
+            Again
+          </button>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <p>(Between 1 and 20)</p>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+    <br /><br />
+    <h1 class="text-center" id="win">GUESS MY NUMBER</h1>
+    <br /><br />
+    <hr />
+    <br />
+
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-6 col-sm-12">
+          <input
+            type="number"
+            class="mb-3 w-25 h-50 bg-dark text-white p-2"
+            id="number"
+          /><br />
+          <button
+            class="btn btn-dark btn-outline-success text-white w-25 border-white"
+            id="check"
+          >
+            Check!
+          </button>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div>
+            <p>
+              <span id="guess" class="bg-white text-dark font-weight-bolder"
+                >Start Guessing ....!</span
+              >
+            </p>
+            <p>Score : <span id="score">20</span></p>
+            <p>High Score : <span id="highscore">0</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
