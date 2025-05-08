@@ -1,8 +1,7 @@
 # GuessNumberGame
-Guess the number Using jQuery
-Code by Nauman Sadiq (invisible eye) // //
+Guess the number game is build using jQuery
 
-run the guessNumber.html file // //
+run the guessNumber.html
     
     
     
